@@ -1,0 +1,29 @@
+.col-md-4 {
+    border: $br-primary;
+    padding: 30px;
+ }
+ .color-item {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 24px;
+ }
+ 
+ .color-item-1 {
+    background: green;
+    border: $br-primary;
+ }
+
+ .color-item-2 {
+    background: yellow;
+    border: $br-primary;
+ }
+
+ .color-item-3 {
+    background: $bg-primary;
+    border: $br-primary;
+ }
+
+ .color-item-4 {
+    background: $bg-secondary;
+    border: $br-primary;
+ }
