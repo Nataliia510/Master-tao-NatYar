@@ -1,24 +1,21 @@
 footer{
     height: 100px;
-    background: $secondary-color;
+    background: $color-secondary;
     margin-top: auto;
 }
 
-.markap,
-.github {
-   position: fixed;
-   left: 5px;
-   background-color: #cd3f8f;
-   color: #0d0000;
-   text-decoration: none;
-   display: inline-block;
-   width: fit-content;
-   padding: 7px 12px;
-   border-radius: 23px;
-   line-height: 1;
-   bottom: 20px;
-
-   &:hover {
-       color: #d99dbd;
-   }
+.markap{
+    position: fixed;
+    left: 15px;
+    bottom: 20px;
+    background-color: $color-primary;
+    color: black;
+    display: inline-block;
+    width: fit-content;
+    padding: 7px 12px;
+    line-height: 2;
+    border-radius: 20px;
+    &:hover {
+        background: $color-secondary;
+    }
 }

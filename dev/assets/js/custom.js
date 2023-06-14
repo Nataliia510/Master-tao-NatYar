@@ -1,10 +1,10 @@
+
+
+
 $( document ).ready(function() {
-    console.log( "ready!" );
-	
+    $('.first-screen-slider').slick();
 
-$('.single-item').slick();
-
-    Fancybox.bind('[data-fancybox]', {
+    Fancybox.bind('[data-fancybox="gallery"]', {
       });
 });
 
