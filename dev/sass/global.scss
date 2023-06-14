@@ -18,22 +18,15 @@ a {
     }
 }
 
+.btn {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 146%;
+    border-radius: 90px;
+    padding: 13px 17px;
+    display: inline-flex;
+}
+
 .container-xxl {
     max-width: 1820px;
-}
-
-.wf-300 {
-    font-weight: 300;
-}
-
-.wf-400 {
-    font-weight: 400;
-}
-
-.wf-600 {
-    font-weight: 600;
-}
-
-.wf-700 {
-    font-weight: 700;
 }
