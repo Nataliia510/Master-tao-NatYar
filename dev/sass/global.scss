@@ -1,6 +1,6 @@
 ::selection {
     color: $text-color;
-    background: $color-secondary;
+    background-color: $color-secondary;
 }
 
 body {
@@ -9,12 +9,13 @@ body {
     font-family: $font-primary;
 }
 
+
 a {
     color: $color-primary;
-    text-decoration: underline;
 
     &:hover {
-        background: $color-secondary;
+        color: $color-primary;
+        text-decoration: none;
     }
 }
 
