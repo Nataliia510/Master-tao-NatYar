@@ -1,6 +1,8 @@
 header {
     .navbar {
-        padding: 32.1px 0;
+        padding-top: 25px;
+        padding-bottom: 40px;
+        @extend .container;
     }
     .navbar-brand {
         padding: 0;
@@ -14,11 +16,14 @@ header {
     }
     
 .navbar-nav {
-    max-width: 618px;
+    max-width: 647px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    
 
     .nav-link {
         &.active {
