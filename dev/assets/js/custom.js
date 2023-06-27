@@ -1,8 +1,6 @@
 
-
-
-$( document ).ready(function() {
-    $('.first-screen-slider').slick({
+$(document).ready(function() {
+  $('.first-screen-slider').slick({
       dots: true,
       speed: 1000,
       appendArrows: ".container-arrows",
@@ -10,14 +8,8 @@ $( document ).ready(function() {
               breakpoint: 991,
               settings: {
                   arrows: false,
-                  fade: true,
               }
           },
-
       ]
   });
-
-    Fancybox.bind('[data-fancybox="gallery"]', {
-      });
 });
-
