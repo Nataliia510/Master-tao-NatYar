@@ -1,18 +1,17 @@
 @media screen and (max-width: 991px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     header {
         .navbar {
             padding-top: 19px;
             padding-bottom: 17px;
-            margin-bottom: 0;
-            transition: .3s;
-            &.margin-bottom {
-              margin-bottom: 109px;  
-            }
+        }
+
+        .navbar-expand-lg {
+            padding-left: 20px;
+            padding-right: 14px;
+        }
+
+        .logo_header {
+            margin-left: -12px;
         }
 
         .navbar-nav {
@@ -22,16 +21,16 @@
 
         .nav-link {
             font-size: 24px;
-            line-height: 199%;
+            line-height: 200%;
             text-align: center;
             color: #FFFFFF;
         }
 
         .navbar-collapse {
             background-color: #363A4D;
-            margin: 0 -20px 0;
+            margin: 0 -40px 0;
             padding: 0 40px;
-            transition: 1s;
+            transition: .3s;
             transform: translate(0, 15px);
             text-align: center;
         }
@@ -39,42 +38,40 @@
         .btn {
             justify-content: center;
             margin: 0 0 60px;
-            width: 100%;
+            width: 98%;
             padding: 22px 26.7px;
-            letter-spacing: 0.6px;
             max-width: 295px;
+        }
 
+        .navbar-toggler {
+            margin-right: -11px;
         }
     }
-
 
     .first-screen {
         text-align: center;
         
         &__title {
-            font-size: 32px;
-            margin: 0 auto 10px;
-            max-width: 295px;
-            margin-top: 15px;
-        } 
+           font-size: 32px; 
+           margin: 0 auto 10px;
+           max-width: 295px;
+        }
         
         &__subtitle {
-            font-size: 16px;
-            margin: 0 auto 18px;
-            max-width: 277px;
-    
+           font-size: 16px;
+           margin: 0 auto 18px;
+           max-width: 275px
         }
-    
         .slick-list {
-            margin: 0 -20px;
-            border-radius: 0;
+            margin: 0 -20px; 
+            border-radius: 0; 
         }
         .slick-slide {
             border-radius: 0;
             height: calc(100vh - 72px);
             padding: 26vh 0 228px;
-            margin: 0 10px;
-         
+          
+
             &:before {
                 content: "";
                 left: 0;
@@ -89,9 +86,6 @@
                 position: relative;
             }
         }
-        
+    
     }
-
 }
-
-
