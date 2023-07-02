@@ -278,7 +278,6 @@ h6,
 
 // Sections
 
-// Sections
 
 section {
     margin: 0 auto $section-margin-lg;
@@ -289,10 +288,8 @@ section {
     }
 
     &.container-fluid {
-
         padding: 90px 85px 100px;
         position: relative;
-
         &:before {
             content: "";
             position: absolute;
@@ -307,8 +304,7 @@ section {
     }
 
     &:nth-child(odd) {
-        .template-title{
-            
+        .template-title {
             &:after {
                 background-color: $color-primary;
             }
