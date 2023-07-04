@@ -1,0 +1,52 @@
+    <section>
+
+    <section class="test container-fluid">
+        <div class="container">
+            <div class="template-title">
+                <h2>Чому варто обрати саме нас?</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="test">
+        <div class="container">
+            <div class="template-title">
+                <h2>Види доставки вантажів з Китаю</h2>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="test container-fluid">
+        <div class="container">
+            <div class="template-title">
+                <h2>Послуги</h2>
+            </div>
+        </div>
+    </section>
+
+
+      <section class="test">
+        <div class="container">
+            <div class="template-title text-left">
+                <h2>Про компанію</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="test">
+        <div class="container">
+            <div class="template-title">
+                <h2>Популярні запитання</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="test container-fluid">
+        <div class="container">
+            <div class="template-title">
+                <h2>Готові до співпраці?</h2>
+                <h3> Оформіть вантаж!</h3>
+            </div>
+        </div>
+    </section>

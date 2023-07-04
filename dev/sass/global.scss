@@ -108,6 +108,7 @@ h6,
     + label {
         display: flex;
         cursor: pointer;
+        letter-spacing: -0.4px;
 
         &:before {
             content: "";
@@ -278,8 +279,6 @@ h6,
 
 // Sections
 
-// Sections
-
 section {
     margin: 0 auto $section-margin-lg;
     max-width: 1920px;
@@ -307,14 +306,24 @@ section {
     }
 
     &:nth-child(odd) {
-        .template-title{
-            
+        .template-title {
             &:after {
                 background-color: $color-primary;
             }
         }
     }
+
+    &:nth-child(even) {
+        .template-title {
+            &:after {
+                background-color: $color-secondary;
+            }
+        }
+    }
+
+
 }
+
 
 .template-title {
     text-align: center;
@@ -358,16 +367,37 @@ section {
 
      /*type 3*/
      &.col-md-7 {
-        i {
-            width: 85px;
-            height: 2px;
-            background-color: $color-secondary;
-            display: inline-block;
-            margin-bottom: 12px;
+        margin-bottom: 35px;
+        h2 {
+            &:after {
+                content: "";
+                position: static;
+                display: inline-block;
+                width: 85px;
+                height: 2px;
+                margin: 10px 10px 10px 19px;
+                background-color: $color-secondary;
+            }
         }
+      
         &:after {
             display: none;
 
         }
     }
+}
+
+.input-box {
+    margin-bottom: 17px;
+
+    label {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 126%;
+        margin-bottom: 6px;
+    }
+}
+
+.padding-top {
+    padding-top: 22px;
 }
