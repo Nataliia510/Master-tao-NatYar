@@ -1,13 +1,19 @@
 @media screen and (max-width: 991px) {
+    section,.first-screen {
+        margin-bottom: 56px;
+    }
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
     header {
         .navbar {
             padding-top: 19px;
             padding-bottom: 17px;
-        }
-
-        .navbar-expand-lg {
-            padding-left: 20px;
-            padding-right: 14px;
+            padding-left: 12px;
+            padding-right: 12px;
         }
 
         .logo_header {
@@ -50,27 +56,28 @@
 
     .first-screen {
         text-align: center;
-        
+
         &__title {
-           font-size: 32px; 
-           margin: 0 auto 10px;
-           max-width: 295px;
+            font-size: 32px;
+            margin: 0 auto 10px;
+            max-width: 295px;
         }
-        
+
         &__subtitle {
-           font-size: 16px;
-           margin: 0 auto 18px;
-           max-width: 275px
+            font-size: 16px;
+            margin: 0 auto 18px;
+            max-width: 275px
         }
+
         .slick-list {
-            margin: 0 -20px; 
-            border-radius: 0; 
+            margin: 0 -20px;
+            border-radius: 0;
         }
+
         .slick-slide {
             border-radius: 0;
             height: calc(100vh - 72px);
             padding: 26vh 0 228px;
-          
 
             &:before {
                 content: "";
@@ -81,11 +88,66 @@
                 height: 100%;
                 background: linear-gradient(180deg, rgb(4 5 17 / 1%), rgb(4 5 17 / 15%));
             }
+
             .container {
-                z-index: 1; 
+                z-index: 1;
                 position: relative;
             }
         }
-    
+
+        .btn-lg {
+            letter-spacing: 0.3px;
+        }
+
+    }
+
+    .template-title {
+        margin-bottom: 40px;
+        h2 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        &.text-left {
+            &::after {
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+        }
+
+        &.col-lg-7 {
+            h2 {
+                &::after {
+                    position: absolute;
+                    left: 50%;
+                    top: calc(100% - 2px);
+                    transform: translate(-50%, 0);
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .calculation {
+        margin-bottom: 60px;
+        .container {
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+    .calculation-form {
+        margin: 0 auto;
+        padding: 47px 27px 34px;
+    }
+
+    .padding-top {
+        padding-top: 10px;
+    }
+
+    #file-name {
+        margin-bottom: 17px;
+        margin-top: 0;
     }
 }

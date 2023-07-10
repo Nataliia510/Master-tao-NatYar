@@ -11,12 +11,11 @@
             bottom: -113px;
             max-width: 626px;
             width: 39vw;
-            height: 98vh;
+            height: 214vh;
             background: url(assets/img/calculation-bg.png) left bottom/contain no-repeat;
         }
     }
 }
-
 
 .calculation-form {
     max-width: 626px;
@@ -25,7 +24,9 @@
     border-radius: 20px;
     padding: 47px 48px 61px;
     margin: 0 0 0 15px;
+    position: relative;
     box-shadow: 5px 15px 40px #1c1f2a;
+
     input {
         width: 100%;
     }
@@ -37,6 +38,7 @@
 }
 
 input {
+    transition: .1s;
     &[type="text"],
     &[type="number"] {
         background: #FFFFFF;

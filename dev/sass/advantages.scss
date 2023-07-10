@@ -1,0 +1,41 @@
+.advantages { 
+    .col-lg-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+   
+.advantage {
+    text-align: center;
+    margin-top: 60px;
+}   
+
+h4.advantage-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 125%      
+}
+.advantage-img {
+    width: 93px;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-secondary;
+    border-radius: 50%;
+    margin: 0 auto 22px;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        width: 113px;
+        height: 113px;
+        border: 1px solid #6C7188;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
