@@ -48,33 +48,40 @@ mobileOnlySlider(".advantages-slider", true, false, 991);
     
     // Mobile Only Slider
 
+    $('.slider-template').slick({
+      dots: false,
+      speed: 300,
+      arrows: true,
+      
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      responsive: [{
+              breakpoint: 1400,
+              settings: {
+                  slidesToShow: 2,
+                 
+                  arrows: true,
+              }
+          },
+          {
+              breakpoint: 991,
+              settings: {
+                  slidesToShow: 1,
+                 
+              }
+          },
+          {
+              breakpoint: 575,
+              settings: {
+                  slidesToShow: 1,
+                  arrows: false,
+                  dots: true,
+              }
+          }
+      
     // $('.navbar-toggler').on('click', function(){
     // $('.navbar').toggleClass('margin-bottom')
     // });
-
-function checkboxContainerPadding() {
-    const checkButton1 = document.querySelector('.check-button');
-    const checkButton2 = document.querySelectorAll('.check-button');
-    console.log(checkButton1);
-    console.log(checkButton2);
-
-
-    checkButton2.forEach(item => {
-        item.closest('[class*=col]').classList.add('padding-top');
-    });
-
-}
-
-if (document.querySelector(".calculation-form")) {
-    checkboxContainerPadding()
-} else {
-    null
-}
-
-document.getElementById('fileInput').onchange = function() {
-    //short name
-    document.getElementById('file-name').innerHTML = this.files[0].name;
+  ]
+});
     
-    //long name
-    // document.getElementById('file-name').innerHTML = this.value;
-};

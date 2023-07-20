@@ -1,7 +1,26 @@
 @media screen and (max-width: 991px) {
-    section,.first-screen {
+
+    section,
+    .first-screen {
         margin-bottom: 56px;
     }
+
+    section {
+
+        &.container-fluid,
+        &.advantages.container-fluid {
+            padding: 55px 0 60px;
+
+            &::before {
+                content: "";
+                left: 0px;
+                right: 0px;
+                border-radius: 0px;
+
+            }
+        }
+    }
+
     .container {
         padding-left: 20px;
         padding-right: 20px;
@@ -143,11 +162,27 @@
     }
 
     .padding-top {
-        padding-top: 10px;
+        padding-top: 9px;
     }
 
     #file-name {
-        margin-bottom: 17px;
-        margin-top: 0;
+        margin-top: 5px;
+        margin-bottom: 12px;
+        
+    }
+
+    .advantages {
+        .slick-list {
+            padding-top: 12px;
+        }
+    }
+
+    .advantage-title {
+        max-width: 263px;
+        margin: 0 auto;
+    }
+
+    .slider-template {
+        width: 390px;
     }
 }
