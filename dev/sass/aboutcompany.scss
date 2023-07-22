@@ -1,0 +1,21 @@
+.about-company {
+
+	.about-company-content {
+		p {
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 1.7;
+			margin-bottom: 20px;
+		}
+	}
+
+	.about-company-img_box {
+		position: relative;
+		margin-top: -166px;
+		max-width: 550px;
+
+		img {
+					width: 100%;
+		}
+	}
+}

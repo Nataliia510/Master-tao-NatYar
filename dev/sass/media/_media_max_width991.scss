@@ -20,7 +20,6 @@
             }
         }
     }
-
     .container {
         padding-left: 20px;
         padding-right: 20px;
@@ -122,6 +121,7 @@
 
     .template-title {
         margin-bottom: 40px;
+
         h2 {
             font-size: 24px;
             text-align: center;
@@ -149,6 +149,7 @@
 
     .calculation {
         margin-bottom: 60px;
+
         .container {
             &:after {
                 display: none;
@@ -162,13 +163,12 @@
     }
 
     .padding-top {
-        padding-top: 9px;
+        padding-top: 10px;
     }
 
     #file-name {
-        margin-top: 5px;
-        margin-bottom: 12px;
-        
+        margin-bottom: 17px;
+        margin-top: 0;
     }
 
     .advantages {
@@ -185,4 +185,94 @@
     .slider-template {
         width: 390px;
     }
+
+    .about-company {
+
+        .about-company-content {
+            p {
+                font-size: 16px;
+                line-height: 149.5%;
+            }
+        }
+
+        .about-company-img_box {
+            margin: 33px auto 0;
+            max-width: 377px;
+        }
+    }
+
+
+
+    .accordion {
+        padding-right: 0;
+
+        .accordion-item {
+            .accordion-button {
+
+                &.collapsed {
+                    font-size: 18px;
+                    padding: 12px 75px 12px 20px;
+                    height: 60px;
+                }
+
+                &:not(.collapsed) {
+                    font-size: 16px;
+                    padding: 16px 60px 12px 20px;
+
+                }
+
+
+            }
+
+            .accordion-body {
+                font-size: 17px;
+                padding: 12px 25px 12px 20px;
+
+
+            }
+        }
+    }
+
+    .FAQ {
+
+        .faq-form {
+            margin: 10px auto 0;
+            padding: 36px 20px;
+            max-width: 335px;
+            max-height: 564px;
+            text-align: center;
+        }
+
+        .input-box {
+            max-width: 295px;
+
+
+            input {
+                width: 100%;
+                margin-bottom: -13px;
+
+            }
+
+            .input-box_question {
+                padding: 28px 20px;
+            }
+        }
+
+        .btn {
+            width: 100%;
+            margin-top: 39px;
+
+            .icon {
+                margin: 0 -14px 0 auto;
+            }
+        }
+    }
+
+    footer {
+        .first-section {
+            text-align: center;
+            margin: 0 20px;
+        }
+    }
+
 }

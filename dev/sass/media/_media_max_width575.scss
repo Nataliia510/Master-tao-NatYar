@@ -2,29 +2,24 @@
     .calculation-form {
         .btn {
             width: 100%;
-
             .icon {
                 margin: 0 -14px 0 auto;
-
             }
         }
     }
-
-
     .delivery {
         .slick-slide::after {
             left: 15px;
             right: 15px;
 
         }
-
         .slider-template_img-box {
             margin-bottom: 43px;
             padding: 0 15px;
         }
 
         .slider-template_btn-row {
-            padding: 0 15px;
+            padding: 0 30px;
 
             .btn {
                 white-space: nowrap;
@@ -33,10 +28,9 @@
             }
         }
     }
-
     .slider-template {
-        width: 335px;
-       
+        width: 365px;
+        margin: 0 -15px;
 
         .slick-slide {
             padding: 0 0 27px;
@@ -45,7 +39,6 @@
         .slick-dots {
             margin-top: 33px;
         }
-
     }
 
     section.delivery,
@@ -67,5 +60,20 @@
 
         }
     }
+    .accordion {
+        .accordion-item {
+            button {
+                &.accordion-button {
 
+                    &.collapsed {
+                        font-size: 16px;
+                        padding: 12px 75px 12px 20px;
+                    }
+                }
+            }
+            .accordion-body {
+                font-size: 14px;
+            }
+        }
+    }
 }

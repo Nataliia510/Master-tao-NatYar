@@ -1,12 +1,132 @@
 @media screen and (max-width: 1570px) {
   .first-screen {
       .slick-arrow {
-        background-position: 20px;
+          background-position: 20px;
       }
   }
-  .calculation .container:after {
-    right: 0;
-}
+
+  .calculation {
+      .container {
+          &:after {
+              right: 0;
+
+          }
+      }
+  }
 }
 
-@media screen and (max-width: 1199px) {}
+
+
+@media screen and (max-width: 1199px) {
+
+  .cooperation {
+      .cooperation_section-left {
+          .cooperation-img_fancyboxs {
+              margin-bottom: 36px;
+          }
+      }
+
+
+      .cooperation_section-right,
+      .cooperation_section-left {
+          width: 100%;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+
+      }
+
+      .cooperation_section-right {
+          button {
+              display: flex;
+              width: 100%;
+              margin-top: 39px;
+
+              .icon {
+                  margin: 0 -14px 0 auto;
+              }
+          }
+
+          .col-md-6 {
+              margin-right: 0;
+          }
+
+          .cooperation-content {
+              p {
+                  padding: 25px 0 0;
+              }
+          }
+      }
+
+      .cooperation_section-left {
+          display: flex;
+          flex-direction: column-reverse;
+          margin: 39px 0 17px;
+
+          .col-md-6 {
+              margin-right: 0;
+          }
+
+          .cooperation-content {
+              p {
+                  padding: 0 0px 14px;
+                  word-spacing: -0.4px;
+                  line-height: 138.5%;
+              }
+          }
+      }
+
+      .cooperation-content {
+          max-width: 528px;
+          text-align: justify;
+
+          p {
+              font-weight: 300;
+              font-size: 17px;
+              line-height: 155.5%;
+          }
+      }
+
+      .cooperation-img_fancyboxs {
+          max-width: 555px;
+          width: 100%;
+          height: auto;
+          border-radius: 20px;
+      }
+
+  }
+
+  .about-company-content {
+      text-align: justify;
+  }
+
+
+  .about-company {
+      .about-company-img_box {
+          margin-top: -146px;
+      }
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+  .slider-template {
+      margin: 0 auto;
+      width: 780px;
+
+      .slick-arrow {
+          &.slick-next {
+              right: -80px;
+          }
+
+          &.slick-prev {
+              left: -80px;
+          }
+      }
+  }
+}
