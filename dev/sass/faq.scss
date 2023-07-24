@@ -85,19 +85,26 @@
     .faq-form {
         background-color: $bg-secondary;
         margin-left: -16px;
-        padding: 48px 40px;
+        padding: 38px 40px;
         max-width: 390px;
-        max-height: 570px;
+        max-height: 550px;
         border-radius: 20px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 126%;
+        margin: 0;
     }
 
     .input-box {
         max-width: 310px;
         margin-bottom: 0;
+        margin-bottom: -10px;
 
         input {
             width: 100%;
-            margin-bottom: -13px;
 
         }
 
