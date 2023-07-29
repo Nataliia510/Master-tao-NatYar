@@ -1,4 +1,8 @@
 .advantages {
+    &.container-fluid {
+        padding: 90px 85px 33px;
+    }
+
     .col-lg-3 {
         padding-left: 15px;
         padding-right: 15px;
@@ -6,13 +10,12 @@
 
     .advantage {
         text-align: center;
-        margin-bottom: 28px;
+        margin-bottom: 76px;   
     }
 
     h4.advantage-title {
         font-size: 18px;
         line-height: 124.5%;
-
     }
 
     .advantage-img {
@@ -40,6 +43,6 @@
     }
 
     section.advantages.container-fluid {
-        padding: 90px 85px 52px;
+        padding: 90px 85px 30px;
     }
 }
